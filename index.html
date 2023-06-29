@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="styles.css" />
+	<link rel="icon" type="image/x-icon" href="" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="https://kit.fontawesome.com/70daf56398.js" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+	<script src="scroll.js"></script>
+	<title>ShounakVerma.me</title>
+</head>
+<body>
+
+	<div id="progress">
+		<span id="progress-value"><i class="fa-solid fa-angle-up"></i></span>/
+	</div>
+
+    <div id="header">
+    	<img id="bg-img" src="https://i.ibb.co/yq1fdRr/Whats-App-Image-2023-06-27-at-14-30-40-removebg-preview-1.png" alt="myFace" />
+    	<div class="container">
+    		<nav>
+				<h1><ind>Shounak</ind>Verma<ind>.</ind></h1>
+				<!-- <img src="img/logo.png" alt="logo" class="logo" /> -->
+				
+      			<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    		</nav>
+    		<div class="header-text">
+				<p>Shounakverma.me</p>
+				<h1>Hi, I am <span>Shounak Verma</span>,<br />I am from <ind>Milikayway galixy</ind>.</h1>
+			</div>
+    	</div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+	<div id="about">
+		<div class="container">
+			<div class="row">
+
+				<div class="about-col-1">
+					<div class="block">
+						<img src="https://i.ibb.co/Hq402zV/Whats-App-Image-2023-06-27-at-20-17-10.jpg" alt="img" id="imglake" />
+						
+					</div>
+				</div>
+
+				<div class="about-col-2">
+					<h1 class="sub-title">About Me</h1>
+					<p>I am shounak verma a student studing in Delhi Public School Kolar road Bhopal
+						one of the best schools out there. I am as the making of this in 8th grade.
+						<br>
+						<br>
+						 Click an individual tab to have a look!</p>
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('education')">Education</p>
+						<p class="tab-links" onclick="opentab('skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('experience')">Experience</p>
+					</div>
+
+					<div class="tab-contents active-tab" id="education">
+						<ul>
+							<li><span>III to VII <ind><i class="fa-solid fa-arrow-right-long"></i> current!</ind></span><br />DPS Kolar</li>
+							<li><span>Kg-1 to II</span><br />Campion School, Bhopal, Madhya Pradesh</li>
+							
+						</ul>
+					</div>
+
+					<div class="tab-contents" id="skills">
+						<ul>
+							<li><span>Hardware Programing</span><br />Arduino, Raspberrypi <ind><i class="fa-solid fa-arrow-right-long"></i> learning!</ind></li>
+							<li><span>Web Development</span><br />HTML, CSS, JS, Django</li>
+							<li><span>AR/VR</span><br />Unity</li>
+							<li><span>photography/vediography</span><br />I know how to work with Photoshop and Adobe lightroom</li>
+
+						</ul>
+					</div>
+
+					<div class="tab-contents" id="experience">
+						<ul>
+							<li><span>Sanskar Valley Techfest V 8.0</span><br />Second position in event Web weaver</li>
+							<li><span>ExtraQuadrata</span><br />volentier</li>
+							<li><span>Atl-Atom</span><br />Lead programer for Arduino, AMS and second in command for the AI</li>
+							<li><span>Evolve Smart</span><br />Intership at Evolve smart regarding a core named focus 50</li>
+							<li><span>UN organised cyclothon</span><br />I attended a un organised cyclothon</li>
+							<li><span>MUNs</span><br />I have attended 5 MUNs in total I have managed to win various prices like high commendation.<br> I am currently the chair of my schools MUN club for classes VI-</li>
+							
+
+
+
+						</ul>
+					</div>
+					<h1 class="sub-title">More-About Me</h1>
+					<p>I belive that real knowledge comes with experience. Feel free to reach out to me about any thing, also make <br>
+						sure to check out my github to know more about my projects. also download my certificates mentioned below.
+						<br>
+						<br>
+						 </p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+   
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+      	<div class="container">
+        	<div class="row">
+
+
+          		<div class="contact-left">
+					<h1 class="sub-title">Contact Me</h1>
+					<p><i class="fa-solid fa-envelope"></i> : shounak22feb@gmail.com</p>
+					<p><i class="fa-solid fa-phone"></i> : +91 9826011274</p>
+
+					<div class="social-icons">
+						
+						<a href="https://github.com/Wizardelm-shounak" target="_blank"><i class="fa-brands fa-github"></i></a>
+						<a href="https://open.spotify.com/user/31i7vd3sxhvwasbdbxfyvpiqywty" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+						<a href="https://www.instagram.com/shounak_verma/"><i class="fa-brands fa-instagram" target="_blank"></i></a>
+						
+					</div>
+
+         		</div>
+
+
+				<div class="contact-right">
+					<form name="submit-to-google-sheet" action="https://formsubmit.co/shounak22feb@gmail.com" method="POST">
+						<input type="text" name="Name" placeholder="Your Name" required />
+						<input type="text" name="Email" placeholder="Your Email" required />
+						<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+						<button type="submit" class="btn btn2">Submit</button>
+					</form>
+					<!-- <span id="msg">NOTE: Not functional yet!</span> -->
+				</div>
+        	</div>
+			<a href="Shounak Verma certificates.pdf" download class="btn btn2">Download Certificates <i class="fa-solid fa-download"></i></a>
+
+      </div>
+
+      <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> 2023 All Rights Reserved by ShounakVerma.me</p>
+		<p><i class="fa-light fa-diamond-exclamation"></i> This website is in the making</p>
+
+      </div>
+
+    </div>
+	
+    <script>
+		var sidemeu = document.getElementById("sidemenu");
+		function openmenu() {
+			sidemeu.style.right = "0";
+		}
+		function closemenu() {
+			sidemeu.style.right = "-200px";
+		}
+    </script>
+
+</body>
+</html>
